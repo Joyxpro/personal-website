@@ -1,0 +1,134 @@
+@media screen and (max-width: 784px) {
+    .main {
+        overflow: hidden;
+    }
+
+    .navbar {
+        width: 100vw;
+        height: 5rem;
+        flex-direction: row-reverse;
+        padding: 3vw 14vw
+    }
+
+    .nav-left img {
+        margin-top: 13px;
+        width: 4.5rem;
+    }
+
+    .nav-mid {
+        display: none;
+    }
+
+    .nav-right i {
+        font-size: 2.5rem;
+        display: inline-block;
+    }
+
+    .blog {
+        display: none;
+    }
+
+    .page1 {
+        flex-direction: column;
+        height: 80vh;
+        padding: 19vh 5vw;
+    }
+
+    .page1 img {
+        width: 47vh
+    }
+
+    .hero-left {
+        font-size: 1.5rem;
+        width: 125%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .page2 {
+        height: 168vh;
+    }
+
+    .timeline {
+        height: 95vh;
+        width: 1.8px;
+    }
+
+    .time-points-container {
+        flex-direction: column;
+        margin-left: 11rem;
+    }
+
+    .time-points {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        padding-left: 5rem;
+        width: 51vw;
+        height: 1.8px;
+    }
+
+    .time-points img {
+        position: relative;
+        margin-left: 18rem;
+        margin-top: -3.5rem;
+    }
+
+    .time-points:nth-child(4) img {
+        width: 5rem;
+    }
+
+    .time-points p {
+        line-height: 18px;
+        margin-top: -3.5rem;
+        width: 14rem;
+        position: absolute;
+
+    }
+
+    .page2 {
+        position: relative;
+    }
+
+    .about-section {
+        position: absolute;
+        left: 0rem;
+        top: 11rem;
+    }
+
+    .page3 {
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    .elem {
+        padding: 0rem 1.5rem;
+    }
+
+    .elem span {
+        font-size: 3.8vw;
+    }
+
+    .elem img {
+        height: 90px;
+    }
+
+    .accept input {
+        padding: 0.5rem 2rem;
+    }
+
+    .accept textarea {
+        padding: 0.5rem 3rem;
+        border-radius: 15px;
+    }
+
+    .accept button {
+        padding: 0.5rem 6rem;
+    }
+
+    .footer p {
+        font-size: 13px;
+    }
+}
